@@ -605,8 +605,8 @@ class FormBuilder
         // all together into one single HTML element that can be put on the form.
         $html = [];
 
-        if (isset($selectAttributes['nulloption']) {
-           $html[] = "<option></option";
+        if (isset($selectAttributes['nulloption'])) {
+           $html[] = "<option></option>";
         }
 
         if (isset($selectAttributes['placeholder'])) {
